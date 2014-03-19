@@ -61,3 +61,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+
+
+# temporary, to solve the gem issue
+gem 'thread_safe', '0.2.0'
