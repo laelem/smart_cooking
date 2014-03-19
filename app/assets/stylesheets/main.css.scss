@@ -1,0 +1,49 @@
+@import "mixin_var";
+
+#header{
+  background-color: $green;
+  text-align: center;
+  height: 8em;
+  h1{
+    font-family: $police_titre;
+    font-weight: normal;
+    font-size: 3em;
+    a{
+      color: #fff;
+    }
+  }
+}
+
+#nav{
+  border-top: 10px solid green;
+  border-bottom: 1px solid green;
+  font-family: $police_titre;
+  background-color: #ddd;
+  text-align: center;
+  font-size: 1.2em;
+  ul{
+    margin: 0;
+    list-style: none;
+    li{
+      display: inline-block;
+      a{
+        color: green;
+        display: block;
+        padding: 0.5em 0.8em;
+        &:hover{
+          background-color: #bbb;
+          color: lighten(green, 70%);
+        }
+      }
+    }
+  }
+}
+
+#main{
+  width: 1000px;
+  margin: auto;
+  padding: 1em;
+  border-bottom: 1px solid green;
+  border-left: 1px solid green;
+  border-right: 1px solid green;
+}

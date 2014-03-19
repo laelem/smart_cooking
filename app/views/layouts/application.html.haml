@@ -1,0 +1,15 @@
+!!! 5
+%html
+  %head
+    %title= t :application_title
+    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    %link{rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Syncopate"}
+    = csrf_meta_tags
+    = render 'layouts/shim'
+  %body
+    = render 'layouts/header'
+    = render 'layouts/nav'
+    %section#main
+      = yield
+      = debug(params) if Rails.env.development?

@@ -29,6 +29,20 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Detect the mime type of a file by extension or by content
+# https://github.com/minad/mimemagic
+gem 'mimemagic'
+
+# Image manipulation for ruby
+gem 'rmagick'
+
+# Generates fake data
+gem 'faker'
+
+gem 'factory_girl_rails', '~> 4.0'
+
+gem 'haml'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
