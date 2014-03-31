@@ -1,6 +1,15 @@
 SmartCooking::Application.routes.draw do
   root 'static_pages#home'
 
+  post 'wiki/autocomplete', to: 'wiki#autocomplete'
+  get 'wiki/search', to: 'wiki#search'
+
+  resources :recipes do
+    collection do
+      post 'ingredient_autocomplete'
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

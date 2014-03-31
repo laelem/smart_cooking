@@ -1,0 +1,890 @@
+-
+  name: "Abaisser"
+  desc: "Action d'étendre une pâte à l'aide d'un rouleau à pâtisserie en lui donnant une forme et une épaisseur voulue."
+-
+  name: "Aboyer"
+  desc: "Action d'annoncer des bons à haute et intelligible voix à la brigade de cuisine durant un service. Ce rôle est tenu au passe par le chef de cuisine ou \"l'aboyeur\" qui annonce le contenu du bons, les envois, les cuissons..."
+-
+  name: "Abricoter"
+  desc: "Action d'étendre à l'aide d'un pinceau à pâtisserie de la confiture d'abricot tamisée, du nappage, ou autres gelées sur un entremets ou une tarte."
+-
+  name: "Accommoder"
+  desc: "Action de préparer un ingrédient en vue de sa cuisson : parer, éplucher, assaisonner, ficeler...Autre terme utilisé : \"apprêter\"."
+-
+  name: "Aciduler"
+  desc: "Action de rendre plus acide, plus aigre, ou plus piquante une sauce en lui incorporant un jus de citron du vinaigre ou du verjus. Autre terme utilisé : \"aigrir\"."
+-
+  name: "Aiguiser"
+  desc: "Action de rendre plus tranchant ou d'entretenir le fil d'une lame de couteau à l'aide d'un fusil à aiguiser. Autre terme utilisé : \"affûter\"."
+-
+  name: "Adoucir"
+  desc: "Action d'atténuer l' âcreté, l'acidité, ou l'amertume d'une préparation en ajoutant de l'eau de la crème ou du lait à cette dernière. \"Adoucir\" une tomate concassée en lui ajoutant du sucre. \"Adoucir\" une sauce à base de vin blanc en faisant réduire ce dernier."
+-
+  name: "Appertiser"
+  desc: "Action de conserver un aliment ou une préparation dans un bocal (métallique ou en verre) hermétiquement fermé, en le soumettant plus ou moins longtemps à une stérilisation à 100°. Ce procédé porte le nom de son inventeur Nicolas Appert (1749 -1841)."
+-
+  name: "Apprêter"
+  desc: "Action de conjuguer les différentes phases préliminaires d'une préparation  en vue de sa réalisation."
+-
+  name: "Araser"
+  desc: "Action de couper ou égaliser les extrémités d'un légumes (carottes, navets, artichauts...) avant son épluchage."
+
+-
+  name: "Aromatiser"
+  desc: "Action de parfumer une sauce ou une crème avec une substance aromatique thym, romarin, kirsch, rhum, vanille..."
+-
+  name: "Arroser"
+  desc: "Action de verser régulièrement à l'aide d'un pochon, ou d'une cuillère à jus, sur une pièce \"rôtie\" ou \"poêlée\" son gras de cuisson. Cette action à pour but d'éviter le dessèchement de la pièce mise en cuisson (rôtir, poêler ou sauter)."
+-
+  name: "Attendrir"
+  desc: "Action de rendre plus tendre une viande, en la laissant \"rassir\" au froid (2° durant 4 à 5 jours), en l'aplatissant à l'aide d'un batte à côtelettes (paillarde, escalope de veau), ou en la mettant à mariner (daube, civet)."
+-
+  name: "Assaisonner"
+  desc: "Action de relever le goût, la saveur d'un ingrédient ou d'une préparation en lui ajoutant avec parcimonie du sel, du poivre ou des épices."
+-
+  name: "Assujettir"
+  desc: "Action de maintenir les membres d'une volaille ou d'un gibier à plumes à l'aide d'un ficelle à rôtir. Autre terme utilisé : \"ficeler\"."
+-
+  name: "Barder"
+  desc: "Action d'entourer une volaille, un gibier , ou autre pièce de boucherie, d'une tranche de lard gras frais (barde de lard) avant sa cuisson."
+-
+  name: "Beurrer"
+  desc:
+    - "Action d'enduire une plaque, un cercle ou autres ustensiles de cuisson de beurre fondu ou beurre en pommade."
+    - "Action de rajouter de petits morceaux de beurre frais dans une sauce ou un potage (on dit aussi \"lier\" au beurre ). Action d'incorporer du beurre en plus ou moins grosse quantité dans une pâte feuilleté, brioche..."
+    - "Action d'étaler du beurre ramolli sur du pain de mie, tartine ou croûton de pain."
+-
+  name: "Battre"
+  desc: "Action de mélanger énergiquement un appareil à l'aide d'un fouet (pâte à génoise, meringues...), ou d'un fourchette(omelette). Action de donner du corps ou de l'élasticité à un pâte levée (pâte à brioche)."
+-
+  name: "Blanchir"
+  desc:
+    - "Action de retirer l'excès de sel d'une charcuterie (poitrine de porc salée) en la mettant dans de l'eau froide, la porter à l'ébullition puis la rafraîchir, ou par le même procédé retirer l'âcreté ou le goût fort de certain légumes (choux vert). ou encore pour épurer des os de veau ou des carcasses de volailles."
+    - "Action de fixer la chlorophylle à un légume vert en le plongeant dans une quantité d'eau bouillante et en le refroidissant par la suite."
+    - "Action de rendre \"blanc\" un mélange de jaune d'oeufs et de sucre (crème Anglaise) en le remuant rapidement au fouet."
+-
+  name: "Blondir"
+  desc: "Action de cuire de cuire un aliment (oignon émincé) dans un corps gras chaud en lui donnant un coloration blonde."
+-
+  name: "Bouillir"
+  desc: "Action de cuire un aliment dans un liquide en ébullition à 100° (eau, fond, fumet, court-bouillon...)  des pâtes, du riz, des légumes... Autre terme utilisé : \"cuire à l'Anglaise\"."
+-
+  name: "Braiser"
+  desc: "Action de cuire un aliment dans un liquide aromatisé (vin, fond, fumet...) avec ou sans garniture aromatique, à couvert à feu doux ou au four.( aiguillette de boeuf braisée, endive braisée, laitue braisée...). Le terme de \"braiser à court mouillement\" s'emploie pour la cuisson de certains poissons détaillés en filets ou médaillons. ( médaillon de lotte, filet de sole, darne de saumon...)."
+-
+  name: "Brider"
+  desc: "Action de maintenir les membres d'une volaille ou d'un gibier à plumes en le traversant de part en part à l'aide d'une aiguille à brider et d'une ficelle à rôti. Selon la cuisson appliquée sur la volaille, elle peut être \"brider à rôtir\" ou \"brider en entrée\"."
+-
+  name: "Brûler"
+  desc: "Action résultant d'un mauvais mélange lors de la réalisation d'une pâte brisée ou autre (état huileux ou trop sec). Cette expression est valable aussi pour un pâte à brioche qui a trop chauffé dans la cuve de pétrissage."
+-
+  name: "Canneler"
+  desc:
+    - "Action de faire de petits sillons sur la surface d'un légume courgette, concombre, carotte... ou de certains agrumes à l'aide d'un couteau à canneler ou \"canneleur\", pour en améliorer la présentation."
+    - "Action de réaliser des cannelures sur le dessus d'un purée ou d'une mousse à l'aide d'une spatule en fer ou d'une fourchette."
+-
+  name: "Caraméliser"
+  desc:
+    - "Action de cuire un sirop de sucre sur un feu doux et d'obtenir une coloration blonde (plus ou moins foncée)."
+    - "Action de remplir un moule à flan ou un ramequin de caramel avant de le garnir d'un appareil (crème caramel). Action de parfumer une préparation (appareil ou riz au lait) avec un caramel décuit (crème Beau rivage)."
+    - "Action de caraméliser au fer à polka , au décapeur thermique, ou chalumeau le dessus d'une pâtisserie (crème brûlée, crème Chiboust, mille feuilles...). Action d'enduire de caramel un ingrédient (choux, fruits...)."
+-
+  name: "Cerner"
+  desc:
+    - "Action d'inciser le pourtour d'une pomme ou une pomme de terre à l'aide d'un couteau d'office afin d'éviter que la peau n'éclate en cuisson."
+    - "Action d'inciser un marron avant sa cuisson pour faciliter sa cuisson et son épluchage."
+    - "Action de marquer le couvercle d'une bouchée ou d'un vol au vent à l'aide d'un couteau d'office ou d'un emporte-pièce avant cuisson."
+-
+  name: "Chaud-froiter"
+  desc: "Action de napper un préparation cuite et refroidie (viande, volaille, gibier ou poisson) d'une sauce veloutée blanche ou brune gélifiée. Cette pièce est lustrée à la gelée claire."
+-
+  name: "Chemiser"
+  desc:
+    - "Action de beurrer et fariner un moule à génoise avant de le remplir de pâte."
+    - "Action de tapisser les parois d'un moule avant de le remplir de différentes préparations. Ex: de gelée pour un aspic, de pain de mie pour une charlotte aux pommes, de biscuit à la cuillère pour une charlotte au chocolat, de crème glacée pour un bombe, de caramel pour un crème renversée, de papier sulfurisé beurré pour un cake."
+-
+  name: "Chevaler"
+  desc: "Action de disposer des tranches de viande ou des escalopes en les chevauchant en quinconce sur un plat long , ou en en couronne sur un plat rond."
+-
+  name: "Chinoiser"
+  desc: "Action de passer une sauce au chinois ou au chinois étamine afin d'en éliminer les impuretés. Autre terme plus classique utilisé \"passer au chinois\"."
+-
+  name: "Chiqueter"
+  desc: "Action de pratiquer de petites incisions sur la circonférence d'une bouchée, une allumette, ou un vol au vent,  afin de souder les deux abaisses entre elles, et d' en améliorer sa présentation."
+-
+  name: "Ciseler"
+  desc:
+    - "Action de couper des fines herbes estragon, basilic, cerfeuil, persil à l'aide d'un paire de ciseaux."
+    - "Action de réduire en menus morceaux réguliers de l'oignon ou de l'échalote à l'aide d'un couteau à émincer ou \"éminceur\". Action de détailler en fines lanières des feuilles d'oseille ou de la laitue en chiffonnade."
+    - "Action de pratiquer des incisions obliques sur la surface d'un poisson avant cuisson, cela facilite la cuisson et l'assaisonnement."
+-
+  name: "Citronner"
+  desc:
+    - "Action de frotter certains aliments (pommes, artichauts, champignons, céleri rave...) pour éviter qu'ils ne \"noircissent\" à l'air (oxydation)."
+    - "Action de rajouter un jus de citron à une sauce ou autre préparation au moment de la finition. Autre terme utilisé : \"aciduler\"."
+-
+  name: "Clarifier"
+  desc:
+    - "Action de séparer le jaune du blanc d'oeuf. Action de séparer le petit lait, et la caséine du beurre en le mettant à fondre dans un endroit tiède."
+    - "Action de rendre limpide un consommé simple en le faisant cuire avec une \"clarification\", afin d'obtenir un consommé double."
+-
+  name: "Clouter"
+  desc: "Action de piquer des clous de girofle dans un oignons en vue de parfumer un bouillon."
+-
+  name: "Coller"
+  desc: "Action de rajouter de la gélatine ramollie, ou autres gélifiants alimentaires dans une préparation en vue de la gélifier  (crème Anglaise collée, gelée de boeuf, gelée de poisson...). "
+-
+  name: "Colorer"
+  desc:
+    - "Action de changer, ou rehausser la couleur d'une préparation (crème, potage, sauce...) à l'aide de colorants naturels ou de caramel."
+    - "Action de rissoler uniformément la surface d'une viande sur un feu vif. Autre terme utilisé : \"rissoler\"."
+-
+  name: "Compoter"
+  desc: "Action de cuire lentement  à couvert des oignons, des fruits ou autres préparations (viande de lapin) afin d'obtenir une \"compote\"."
+-
+  name: "Concasser"
+  desc:
+    - "Action de hacher grossièrement de la pulpe de tomate, ou des fines herbes à l'aide d'un couteau à émincer."
+    - "Action de couper en morceaux plus ou moins réguliers des os , des carcasses de volaille ou des arêtes de poisson en vue de la réalisation de fonds ou de fumet."
+    - "Action d'écraser des grains de poivre noir pour obtenir de la \"mignonnette\"."
+-
+  name: "Concentrer"
+  desc: "Action de réduire lentement une quantité de fond en vue d'obtenir un produit sirupeux et corsé en saveur connu sous le nom de \"glace de viande, de volaille ou de poisson\"."
+-
+  name: "Confire"
+  desc:
+    - "Action de cuire des morceaux de viande (porc, oie, canard)  lentement dans de la graisse."
+    - "Action de cuire des fruits ou écorces dans un sirop de sucre pour obtenir des fruits confits."
+    - "Action de conserver certains condiments dans du vinaigre Ex: câpres, cornichons..."
+-
+  name: "Contiser"
+  desc: "Action de sertir de lames de truffes  la surface des filets de poisson ou de volailles."
+-
+  name: "Corner"
+  desc:
+    - "Action de récupérer un appareil une sauce ou une crème dans un récipient à l'aide d'un \"corne \" en plastique ou d'une \"Maryse\".®."
+    - "Action de nettoyer les bords d'un cul de poule pour éviter à l'appareil de sécher sur les parois."
+-
+  name: "Corder"
+  desc: "Action de rendre une préparation collante et dure Ex détrempe de feuilletage trop ferme, purée de pomme de terre. "
+-
+  name: "Corriger"
+  desc: "Action de rectifier une saveur trop soutenue à une préparation en lui ajoutant une saveur contraire ( du sucre dans la sauce tomate, des tranches de pommes de terre dans une sauce salée...)."
+-
+  name: "Corser"
+  desc:
+    - "Action d'augmenter la saveur peu prononcée d'une sauce en lui ajoutant une glace de même nature (viande ou poisson)."
+    - "Action de réduire une sauce ou autre préparation liquide afin d'en concentrer les saveurs."
+-
+  name: "Côtoyer"
+  desc: "Action de tourner régulièrement une pièce de viande en cours de rôtissage, afin d'obtenir une croûte et un coloration uniformes. "
+-
+  name: "Coucher"
+  desc: "Action de dresser sur un plaque à pâtisserie une pâte ou un appareil (pâte à choux, meringues, pomme Duchesse) à l'aide d'une poche à douilles."
+-
+  name: "Couler"
+  desc: "Action de garnir de gelée un pâtés en croûte (cuit et refroidi) grâce à la cheminée prévue à cet effet."
+-
+  name: "Couvrir"
+  desc: "Action de mettre un couvercle sur un ustensile, en vue d'un cuisson \"à couvert\" sur le feu ou au four (estouffade, boeuf braisé...) , il est possible de couvrir certaines cuissons de papier sulfurisé beurré Ex : filets de sole braisés..."
+-
+  name: "Cremer"
+  desc:
+    - "Action de rajouter de la crème à une préparation (farce mousseline), un potage (crème de légumes), un sauce (blanquette de veau, fricassée...)."
+    - "Action de ramollir du beurre à l'aide d'un fouet en le chauffant légèrement (obtention d'un beurre lisse et brillant)."
+-
+  name: "Crépiner"
+  desc: "Action d'envelopper une préparation (râble de lapin, gigolette de volaille...) de crépine de porc."
+-
+  name: "Crever"
+  desc: "Action de pré cuire du riz en le mettant dans de l'eau froide et en le portant à ébullition, ceci permet un éclatement du grain."
+-
+  name: "Cuire"
+  desc: "Action de rendre comestibles certains aliments en les soumettant à la chaleur directe ou indirecte d'un foyer, celle ci entraîne des réaction physico-chimique sur les aliments (fonte des graisses, ramollissement de la cellulose, caramélisation des sucres, coagulation des albumines...)."
+-
+  name: "Cuisiner"
+  desc: "Action de préparer des aliments pour les rendre consommables et plus appétissants. Toutes les techniques successives mises en oeuvre concourent à la transformation des produits et à leur commercialisation. La décoration, l'assaisonnement le dressage mettent ce dernier en valeur."
+-
+  name: "Décanter"
+  desc:
+    - "Action de séparer des éléments aromatiques d'une préparation (garniture aromatique, bouquet garni )  Ex : estouffade, daube, civet. Action de récupérer le beurre clarifié après sa fonte(séparer le beurre du petit lait)."
+    - "Action de laisser reposer un liquide trouble, afin que les impuretés se déposent au fond (bain de friture, fond, fumet...)."
+-
+  name: "Décorer"
+  desc: "Action de mettre en valeur une préparation en parfaisant sa présentation (alternance des couleurs , mise en valeur des formes et des volumes...) en la dressant sur une platerie adéquate (présentoir, miroir, plat ,socle...) et en apportant des éléments de décorations naturelle (fines herbes, fruits, gelée...)."
+-
+  name: "Découper"
+  desc: "Action de trancher, ou détailler des pièces de viandes cuites ou crues. Autres termes utilisés: détailler, escaloper, dépecer."
+-
+  name: "Décuire"
+  desc: "Action de rajouter de l'eau à la cuisson d'un confiture ou d'un caramel afin d'en abaisser le degré de cuisson."
+-
+  name: "Déglacer"
+  desc: "Action de rajouter une petite quantité de liquide froid (vin, fond, eau, fumet...) au fond d'un récipient de cuisson. Cette opération a pour but de dissoudre les sucs de cuisson, en vue de réaliser une sauce."
+-
+  name: "Dégorger"
+  desc:
+    - "Action de tremper à l'eau froide plus ou moins longtemps un aliment afin de le débarrasser de ses impuretés (sang) ou d'un goût prononcé (vase). "
+    - "Action de saupoudrer des légumes de sel (concombre, courgette, aubergines...) ou de sucre (rhubarbe) afin de les rendre plus digestes, ou d'éliminer un partie de l'eau de végétation."
+-
+  name: "Dégraisser"
+  desc:
+    - "Action de retirer la graisse superficielle sur une pièce de viande ou un abats ( rognons de veau, épaule d'agneau...)"
+    - "Action d' éliminer l'excédent de graisse d'un récipient de cuisson."
+    - "Action de retirer de la graisse solidifiée par le froid sur un bouillon à l'aide d'une écumoire. Action de retirer les traces de graisse sur la surface d'un consommé double à l'aide d'un papier absorbant."
+-
+  name: "Dehousser"
+  desc: "Action d'ouvrir et de vider le gésier d'une volaille afin de pouvoir en éliminer les impuretés."
+-
+  name: "Démouler"
+  desc: "Action de retirer un préparation de son moule de cuisson ( génoise, crème renversée...) ou de son moule de mise en forme (aspic...)."
+-
+  name: "Dénerver"
+  desc:
+    - "Action de retirer les nerfs  (aponévroses) d'une pièce de viande à l'aide d'un couteau à dénerver ou \"dénerveur\"."
+    - "Action de retirer les tendons d'une cuisse de grosses volailles (coq, dinde...)."
+-
+  name: "Dénoyauter"
+  desc: "Action d'éliminer les noyaux de certains fruits (olives, cerises, pruneaux...) cette opération peut être réaliser à l'aide d'un \"dénoyauteur\"."
+-
+  name: "Dépecer"
+  desc: "Action de séparer à l'aide d'un couteau de boucher, les différents morceaux formant une grosse pièce (globe de boeuf, cuisseau de veau...). Autres termes utilisés \"piècer\" ou \"dépiécer\". "
+-
+  name: "Dépouiller"
+  desc:
+    - "Action d'éliminer toutes les impuretés (gras et écumes) surnageant à la surface d'un bouillon en cuisson à l'aide d'un pochon."
+    - "Action de retirer la peau certains animaux (lapin, lièvre, poule d'eau...). Action de \"découenner\" un jambon après une cuisson \"pocher\"."
+-
+  name: "Dérober"
+  desc: "Action de retirer la peau (robe) des fèves, en les mondant."
+-
+  name: "Désosser"
+  desc:
+    - "Action de retirer les os d'une pièce de boucherie , d'une volaille ou d'un gibier, à l'aide d'un couteau à désosser ou \"désosseur\"."
+    - "Action de retirer l'arête principale d'un poisson.Autre terme utilisé : \"désarêter\"."
+-
+  name: "Dessaler"
+  desc: "Action d'éliminer par trempage plus ou moins long en eau froide, le sel de conservation d'un aliment ( morue, stockfisch...). Action de \"blanchir\" des dès de poitrine salée."
+-
+  name: "Dessécher"
+  desc: "Action de retirer l'humidité d'une pâte sur un feu doux lors de sa confection (pâte à choux), ou d'un pulpe de pomme de terre en la passant au four."
+-
+  name: "Détailler"
+  desc: "Action de couper en tranches ou cubes réguliers une pièce de viande, du poisson, des fruits ou des légumes. Autre terme utilisé : \"tailler\"."
+-
+  name: "Détendre"
+  desc: "Action de rajouter un liquide (eau, fond, fumet, lait... ) à une préparation trop épaisse."
+-
+  name: "Détremper"
+  desc: "Action de mélanger en quantité plus ou moins variable de la farine et de l'eau. (feuilletage, repère)."
+-
+  name: "Dorer"
+  desc: "Action d'étendre de la \"dorure\" (oeuf entier, ou jaune, battu ) à l'aide d'un pinceau à pâtisserie sur une préparation avant cuisson (dorer du feuilletage)."
+-
+  name: "Dresser"
+  desc: "Action de disposer une préparation (cuisine ou pâtisserie) avec goût dans son plat de service ou dans une assiette."
+-
+  name: "Ébarber"
+  desc:
+    - "Action de retirer les nageoires d' un poisson à l'aide d'un paire de ciseaux."
+    - "Action de parer un oeuf poché en lui ôtant les filaments de blanc coagulés irrégulièrement."
+-
+  name: "Ébouillanter"
+  desc: "Action de plonger rapidement et pour un cours instant un aliment dans de l'eau bouillante. Autre terme utilisé : \"blanchir\"."
+-
+  name: "Écailler"
+  desc:
+    - "Action de retirer les écailles d'un poisson à l'aide d'un \"écailleur\", ou autre couteau dentelé. "
+    - "Action d'ouvrir des coquillages. Action de retirer les écailles des pattes d'une volaille, en les ébouillantant. Autre terme utilisé : \"éplucher\"."
+-
+  name: "Écaler"
+  desc: "Action de retirer la coquille d'un oeuf dur ou mollet."
+-
+  name: "Écorcher"
+  desc: "Action de retirer la peau d'une anguille, d'une lamproie ou d'un congre."
+-
+  name: "Écumer"
+  desc: "Action de retirer de l'écume se formant à la surface d'un bouillon, fumet, ragoût, confiture...en cours de cuisson, à l'aide d'une écumoire."
+-
+  name: "Effiler"
+  desc:
+    - "Action de retirer des fils aux haricots verts frais. Action d'émincer finement des amandes ou des pistaches."
+    - "Action d'émincer en filaments ou lanières des blancs de volaille, aiguillettes de canard, ou blanc de poireau. Autre terme utilisé : \"effilocher\"."
+-
+  name: "Égoutter"
+  desc: "Action de placer un aliment dans une passoire pour éliminer une partie de son eau de lavage ou de cuisson. Action de débarrasser de l'excédent d'huile un aliment sortant d'un bain de friture (frites, beignets...)."
+-
+  name: "Emballer"
+  desc: "Action d'enrober une préparation dans une étamine en vue d'un cuisson dans un bouillon (ballottine, foie gras au torchon...) ou d'un voile de crépine (râble de lapin, choux farcis...)."
+-
+  name: "Embosser"
+  desc: "Action de remplir un boyaux naturel ou synthétique d'une farce."
+-
+  name: "Émincer"
+  desc: "Action de tailler régulièrement (forme, épaisseur) un aliment à l'aide d'un couteau à émincer ou \"éminceur\". "
+-
+  name: "Émonder"
+  desc: "Enlever la peau ou la pellicule qui recouvre certains fruits. Ce terme est surtout employé pour les amandes, qui sont mondées après avoir été débarrassées de leur coquille. On dit aussi : monder."
+-
+  name: "Émulsionner"
+  desc:
+    - "Action de mélanger deux corps non miscibles entre eux, à l'aide d'un fouet (mayonnaise, hollandaise...). "
+    - "Action d'incorporer du beurre pommade dans une crème tout en la \"montant\" au batteur mélangeur."
+-
+  name: "Enrober"
+  desc: "Action d'enduire un aliment uniformément d'un appareil ou d'une pâte à frire (beignets) , de chocolat chaud (petits fours), ou de sucre cuit (fruits déguisés)."
+-
+  name: "Épaissir"
+  desc: "Action de rendre plus épaisse une préparation liquide (sauce, crème...) en ajoutant un élément liant (farine, amidon, fécule, beurre manié, roux)."
+-
+  name: "Épépiner"
+  desc: "Action de retirer les pépins de certains fruits ou légumes (tomates, raisin, groseilles...)."
+-
+  name: "Éplucher"
+  desc: "Action de retirer la peau d'un légume ou d'un fruit  à l'aide d'un économe ou d'un couteau d'office."
+-
+  name: "Équeuter"
+  desc:
+    - "Action de retirer les tiges des feuilles d'épinards ou du persil en branche."
+    - "Action de retirer les fils de haricots verts. Autre terme utilisé : \"effiler\"."
+-
+  name: "Escaloper"
+  desc:
+    - "Action de détailler en biais des tranches régulières, de viandes, de poissons , ou d'abats (escalopes de veau, suprêmes de saumon, escalopes de ris de veau...). "
+    - "Action de détailler des légumes  en morceaux réguliers (têtes de champignons, fonds d'artichauts)."
+-
+  name: "Étuver"
+  desc: "Action de cuire doucement à couvert dans du beurre des aliments taillés très fins (julienne de légumes, brunoise...)."
+-
+  name: "Étouffer"
+  desc: "Action de tuer un pigeon ou pigeonneau par asphyxie (cette méthode permet de garder la chair brune)."
+-
+  name: "Évider"
+  desc:
+    - "Action de retirer une partie plus ou moins importante de la pulpe d'un légume avant de le farcir (tomate ,courgettes farcies...) ou d'un fruits (ananas, orange, citron...givrés). Action d'évider un fruit (pomme, poire) à l'aide d'un \"vide pomme\". "
+    - "Action de vider un pain surprise après l'avoir décalotté."
+-
+  name: "Éviscérer"
+  desc: "Action de vider l'intérieur d'une volaille, d'un lapin, d'un poisson ou d'un gibier, en lui retirant ses viscères."
+-
+  name: "Exprimer"
+  desc:
+    - "Action de fouler les ingrédients d'une sauce a travers un chinois (sauce Américaine). "
+    - "Action de sécher du persil ou des champignons hachés en les pressant dans un linge."
+    - "Action d'extraire du jus (citron, orange, pamplemousse...) en le pressant sur un presse-agrumes. Autre terme utilisé : \"presser\"."
+-
+  name: "Façonner"
+  desc:
+    - "Action de donner une forme (boules, navette, tresses...) à une pâte levée avant sa cuisson. Autre terme utilisé :\"former\"."
+    - "Action de former des quenelles à l'aide de deux cuillères à bouches."
+-
+  name: "Farcir"
+  desc: "Action de garnir l'intérieur d'une viande, d'un poisson, d'une volaille, d'un coquillage...avec une farce, un appareil,  un beurre composé, un hachis de légumes..."
+-
+  name: "Fariner"
+  desc: "Action d'enduire de farine une pièce de viande ou un poisson avant sa cuisson (escalope, truite, sautées), ou une plaque de cuisson."
+-
+  name: "Fendre"
+  desc:
+    - "Action d'ouvrir un suprême de volaille en \"portefeuille\" afin de pouvoir le farcir."
+    - "Action de séparer un coffre d'agneau en deux parties à l'aide d'un feuille à fendre."
+-
+  name: "Ferrer"
+  desc: "Action de poser une pièce sur un gril chauffé à blanc, cette température élevée donne un goût de fer à la grillade."
+-
+  name: "Festonner"
+  desc:
+    - "Action de décorer les bords d'un plat de festons (gelée, fleurons, tranches de citrons cannelées...). "
+    - "Action de décorer le bord d'un plat avec un appareil à pomme duchesse, à l'aide d'une poche et une douille cannelée."
+-
+  name: "Fileter"
+  desc: "Action de lever les filets des poisson ronds ou plats à l'aide d'un couteau filet de sole, ou couteau à \"fileter\"."
+-
+  name: "Filmer"
+  desc: "Action de protéger une denrée ou une préparation en l'enveloppant à l'aide d'un papier film alimentaire étirable."
+-
+  name: "Finir"
+  desc:
+    - "Action de terminer une préparation dans son ultime mise au point (assaisonnement, liaison...)."
+    - "Action de passer une préparation au four ou à la salamandre en vue d'un glaçage. Action de pratiquer une liaison finale au sang (civet) ou aux oeufs (velouté)."
+-
+  name: "Flamber"
+  desc:
+    - "Action d'éliminer le duvet restant sur une volaille en la passant au dessus d'un flamme ou d'un chalumeau. "
+    - "Action d'arroser une préparation d'alcool ou une liqueur et l'enflammer (gambas flambée au whisky, loup flambé au pastis..)."
+-
+  name: "Fleurer"
+  desc: "Action de répandre une fine couche de farine sur un marbre ou une pâte afin de faciliter son abaisse."
+-
+  name: "Foncer"
+  desc:
+    - "Action de garnir un cercle ou un moule à tarte d'une abaisse de pâte."
+    - "Action de garnir un récipient de garniture aromatique (pour mariner, ou braiser)."
+    - "Action de garnir les parois d'une terrine ou d'un moule de barde de lard gras, de couenne, ou de poitrine salée. Autre terme utilisé : \"chemiser\"."
+-
+  name: "Fondre"
+  desc:
+    - "Action de liquéfier par la chaleur certain ingrédients (beurre, chocolat)."
+    - "Action de cuire un aliment à couvert dans un corps gras et dans son eau de végétation. Autre terme utilisé : \"suer, étuver\"."
+-
+  name: "Fouetter"
+  desc: "Action de travailler une crème, un appareil ou un ingrédient à l'aide d'un fouet (crème Chantilly, meringues...). Autre terme \"monter au fouet\"."
+-
+  name: "Fouler"
+  desc: "Action de passer à travers un chinois une sauce ou un appareil tout en l'écrasant avec un pochon (sauce Béarnaise, sauce Américaine...)."
+-
+  name: "Fourrer"
+  desc:
+    - "Action de garnir une omelette de sa garniture en fin de cuisson (Archiduc, Andalouse, confiture...)."
+    - "Action de garnir une coque de choux ou d'éclair d'une crème pâtissière."
+    - "Action de garnir des crêpes ou des pannequets de leur garniture d'appellation (fruits de mer, Mornay, Parisienne...)."
+-
+  name: "Fraiser"
+  desc: "Action d'écraser un pâte brisée sur le marbre à l'aide de la paume de la main pour la rendre plus homogène et lui donner sa texture friable. Autre terme utilisé : \"fraser\"."
+-
+  name: "Frapper"
+  desc: "Action de refroidir brusquement une crème glacée dans un récipient entouré de glace pilée."
+-
+  name: "Frémir"
+  desc: "Action de cuire un aliment à une température avoisinant l'ébullition sans jamais l'atteindre (tronçon de turbot poché, oeuf poché, darne de colin...)."
+-
+  name: "Frire"
+  desc: "Action de cuire un aliment dans une grande quantité de corps gras (bain de friture) à température élevée (180° / 200°)."
+-
+  name: "Gélifier"
+  desc: "Action de transformer un liquide en gel en lui additionnant de la gélatine en feuille ou en poudre (lait gélifié). Autre terme utilisé : \"coller\"."
+-
+  name: "Glacer"
+  desc:
+    - "Action de passer sous la salamandre une préparation salée, nappée de sauce hollandaise ou vin blanc à glacer (filet de sole Marguery, Véronique...). Action de passer sous la salamandre une préparation sucrée, nappé d'un sabayon au champagne (gratinée de fruits de saison...)."
+    - "Action de napper d'un sauce épaisse (fond de poêlage ou de braisage) une pièce de boucherie servie entière au restaurant (poulet poêle Armenonville, aiguillette de boeuf braisée Bourgeoise...)."
+    - "Action de cuire des légumes tournés dans un mélange d'eau de sucre et de beurre(obtenir une pellicule brillante sur la surface des légumes)."
+    - "Action de recouvrir de fondant  mis au point un entremets de pâtisserie, un choux ou un éclair (millefeuilles, éclair vanille, religieuse...)."
+    - "Action de saupoudrer de sucre glace une pâtisserie (choux à la crème, une frangipane, un soufflé...)."
+-
+  name: "Goûter"
+  desc: "Action d'identifier et de découvrir des saveurs avec la langue et par effet de rétro olfaction."
+-
+  name: "Graisser"
+  desc:
+    - "Action d'enduire une plaque à pâtisserie, un moule ou un cercle de corps gras."
+    - "Action d'enduire des grains de riz de beurre en début de cuisson \"pilaff\". Autre terme utilisé : \"nacrer\"."
+-
+  name: "Gratiner"
+  desc: "Action de colorer une préparation au four en lui parsemant sur le dessus du gruyère râpé et des parcelles de beurre (gratin dauphinois, gratin de choux fleurs...) Il est possible d'obtenir des gratins en saupoudrant la préparation de chapelure (cassoulet)."
+-
+  name: "Gratter"
+  desc: "Action de nettoyer des moules à l'aide d'une lame de couteau, afin d'en retirer le byssus (pied) et d'éliminer les balanes (coquillages parasites)."
+-
+  name: "Griller"
+  desc:
+    - "Action de cuire un aliment sur un grill chaud et propre (côtelettes d'agneau, poisson, brochettes...)."
+    - "Action de colorer légèrement des amandes hachées ou effilées dans un four."
+-
+  name: "Habiller"
+  desc:
+    - "Action de préparer une volaille effilée avant sa cuisson (étirer, flamber, vider)."
+    - "Action de préparer un poisson en vue de sa cuisson (ébarber, écailler, vider)."
+-
+  name: "Hacher"
+  desc:
+    - "Action de réduire en menus morceaux du persil à l'aide d'un couteau à émincer. "
+    - "Action de broyer régulièrement les ingrédients d'un farce dans un hachoir mécanique (farce à pâté)."
+-
+  name: "Historier"
+  desc: "Action de transformer un agrumes en élément de présentation à l'aide d'un couteau d'office (historier en dents de loups, en panier, en pince de crabes...)."
+-
+  name: "Humecter"
+  desc: "Action de pulvériser de l'eau sur une préparation, afin d'éviter son dessèchement ou pour faciliter la formation d'une croûte perlée (biscuit à la cuillère)."
+-
+  name: "Imbiber"
+  desc: "Action de mouiller certains gâteaux (baba, savarin, de génoise , biscuits cuillère...) d'un sirop de sucre aromatisé ou non, pour les rendre plus moelleux."
+-
+  name: "Inciser"
+  desc: "Action de pratiquer des entailles peu profondes sur les cotés d'un poisson. Autres termes utilisés \"ciseler, contiser\"."
+-
+  name: "Incorporer"
+  desc: "Action d'ajouter dans une pâte des oeufs (pâte à choux) ou des blancs d'oeufs montés en neige dans un appareil à biscuit."
+-
+  name: "Infuser"
+  desc: "Action de verser un liquide frémissant sur une substance aromatique (lait sur du café concassé), ou un bâton de vanille dans du lait."
+-
+  name: "Larder"
+  desc: "Action d'enfoncer des bâtonnets de lard gras (à l'aide d'une lardoire) dans une pièce de viande destinée à une cuisson longue (aiguillette de boeuf braisée)."
+-
+  name: "Laver"
+  desc: "Action d'éliminer des impuretés sur un légume (sable ou terre) en les plongeant dans  l'eau froide vinaigrée ou non , ou en le frottant sous un filet d'eau courante. "
+-
+  name: "Lever"
+  desc:
+    - "Action de prélever des filets de poisson à l'aide d'un couteau filet de sole."
+    - "Action de prélever de petites billes de légumes (carottes, navets, courgettes...) à l'aide d'une cuillère à racine."
+-
+  name: "Lier"
+  desc:
+    - "Action d'épaissir une sauce en lui ajoutant un féculent (crème de riz, fécule, maïzena, roux...) et en le faisant cuire."
+    - "Action de donner une consistance plus onctueuse en ajoutant de la crème fraîche (crème de légumes, sauce vin blanc), de la crème et des jaunes d'oeufs (velouté Dubarry, Choisy...), ou du sang (civet de lapin de lièvre...)."
+-
+  name: "Limoner"
+  desc: "Action d'éliminer les parties sanguinolentes d'un poisson , d'une viande ou d'un abats,  en le laissant tremper plus ou moins longtemps dans de l'eau courante."
+-
+  name: "Lustrer"
+  desc:
+    - "Action de rendre une préparation chaude brillante en lui passant du beurre clarifié au pinceau (omelette, poulet rôti...)."
+    - "Action de rendre un chaud-froid brillant en lui passant une couche de gelée claire en finition."
+    - "Action de napper un entremets au gel neutre , ou autres gelées de fruits  (miroir au cassis, miroir vanille...)."
+-
+  name: "Luter"
+  desc: "Action de fermer hermétiquement une cocotte avec un \"lut\" ou \"repère\" (farine et eau) en vue d'un cuisson à l'étouffée."
+-
+  name: "Macérer"
+  desc: "Action de faire tremper plus ou moins longtemps des fruits secs ou confits dans un alcool ou une liqueur, voire du vinaigre ou du sirop."
+-
+  name: "Malaxer"
+  desc:
+    - "Action de travailler une substance afin de la ramollir (matière grasse pour du feuilletage)."
+    - "Action de mélanger tous les ingrédients d'une farce mécaniquement dans la cuve un batteur mélangeur (mélange homogène)."
+-
+  name: "Manchonner"
+  desc: "Action de dégager le hauts des os d'un carré d'agneau, d'une côte de boeuf ou d'un jambonnette de volaille, à l'aide d'un couteau à désosser."
+-
+  name: "Manier"
+  desc: "Action de mélanger à la main une quantité équivalente de beurre et de farine. Action de mélanger intimement plusieurs éléments à l'aide d'un spatule afin de rendre le mélange homogène (pâte à choux)."
+-
+  name: "Mariner"
+  desc: "Action de tremper plus ou moins longtemps des morceaux de viande dans un liquide aromatisé (vin rouge, ou blanc + garniture aromatique et assaisonnement)."
+-
+  name: "Marquer"
+  desc: "Action de réunir tous les ingrédients entrant dans la composition d'une recette et démarrer celle-ci (sauce tomate, ragoût...)."
+-
+  name: "Masquer"
+  desc:
+    - "Action de garnir un croûton ou un canapé de farce de foies."
+    - "Action de couvrir uniformément un plat d'une couche de sauce lisse."
+-
+  name: "Masser"
+  desc: "Action de recristalliser du sucre involontairement en cuisson."
+-
+  name: "Mélanger"
+  desc: "Action de réunir des éléments solides ou liquides en vue de les mêler entre eux pour la réalisation d'une pâte, d'un appareil ou d'une farce."
+-
+  name: "Meringuer"
+  desc: "Action de recouvrir un entremets ou une tarte avec de la meringue Italienne ou Française, et de le colorer au four."
+-
+  name: "Mesurer"
+  desc: "Action d'apprécier le volume exact d'un liquide à l'aide de mesure établie (1litre, 1/2 litre, 1/4 litre, ou une mesure graduée)."
+-
+  name: "Mijoter"
+  desc: "Action de faire cuire doucement une préparation dans sa sauce finie (poulet sauté chasseur, lapin aux pruneaux, fricassée forestière...)."
+-
+  name: "Mitonner"
+  desc: "Action de cuire du pain de campagne rassis dans un bouillon en vue d'épaissir ce dernier. Ce terme est synonyme de mijoter. Par extension il s'emploie dans le sens de préparer minutieusement un recette."
+-
+  name: "Monder"
+  desc: "Action de plonger des tomates ou des amandes brutes dans de l'eau bouillante quelques secondes, et de les refroidir rapidement afin d'en faciliter l'épluchage."
+-
+  name: "Monter"
+  desc: "Action de travailler une préparation légère au fouet  (meringue, crème Chantilly, blancs d'oeufs en neige...)."
+-
+  name: "Mouiller"
+  desc: "Action d'ajouter une grande quantité de liquide (eau, vin, fond, fumet, marinade, lait) dans une préparation pour en assurer sa cuisson , ou pour la réalisation de la sauce."
+-
+  name: "Mouler"
+  desc: "Action de donner une forme à une préparation en la versant dans un moule dont elle prendra la forme après cuisson et refroidissement ou congélation (terrine, pâté en croûte, bombe glacée...)."
+-
+  name: "Mortifier"
+  desc: "Action de laisser \"rassir\" une viande après son abattage au froid (2°) pendant quelques jours  en vue de l'attendrir."
+-
+  name: "Nacrer"
+  desc: "Action d'enduire et de rendre translucide des grains de riz dans un corps gras chaud. Autre terme utilisé : \"graisser\"."
+-
+  name: "Napper"
+  desc: "Action de verser uniformément une sauce, un coulis, ou une crème sur une préparation (sauce vin blanc sur filets de poisson)."
+-
+  name: "Paner"
+  desc: "Action d'enrober un ingrédient de chapelure ou de panure avant de le faire frire, sauter ou griller. Les ingrédients sont passés dans de la farine des oeufs battus assaisonnés et de la mie de pain fraîche\"paner à l'Anglaise\", parfois additionner de parmesan râpé \" paner à l'Italienne\", ou uniquement de beurre clarifié et de mie de pain \"paner à la Française\"."
+-
+  name: "Parer"
+  desc:
+    - "Action de supprimer des parties non utilisables d'un aliment : graisse, partie sèche..."
+    - "Action de préparer un légume pour en faciliter sa taille ultérieure : en bâtonnets, en brunoise..."
+    - "Action d'éliminer des entames de préparations : tarte en bande, omelette, viande rôtie..."
+-
+  name: "Parfumer"
+  desc: "Action d'apporter ou d'accentuer un goût et parfum particulier à une crème, une sauce.. en utilisant des arômes naturels , des épices, ou différents alcools..."
+-
+  name: "Partir"
+  desc:
+    - "(FAIRE)   Action de démarrer un cuisson sur un feu vif  (cuisson en bain marie) avant de la finir au four (soufflé, flan...)."
+    - "Action de démarrer une cuisson relativement longue sur un feu vif (après rissolage et mouillement) avant de la finir au four (braiser , ragoût...)."
+-
+  name: "Passer"
+  desc: "Action de filtrer à travers un chinois, un chinois étamine, un tamis ou une étamine, (farce, bouillons, sauce, crème...)."
+-
+  name: "Pasteuriser"
+  desc:
+    - "Action de maintenir à une température de 85° un appareil à crème Anglaise pendant 2 ou 3 minutes et le refroidir brusquement."
+    - "Action de retirer le zeste d'un agrume à l'aide d'un couteau d'office. Autre terme utilisé : \"peler à vif\"."
+-
+  name: "Peser"
+  desc: "Action d'apprécier ou contrôler le poids exact d'un ingrédient , ou le poids des ingrédients entrant dans la composition d'un recette, à l'aide d'un balance."
+-
+  name: "Pétrir"
+  desc: "Action de mélanger manuellement ou mécaniquement différents ingrédients entrant dans la composition d'une pâte."
+-
+  name: "Pincer"
+  desc:
+    - "Action de colorer des os au four, sans apport de matière grasse, en vue de réaliser un fond brun."
+    - "Action de caraméliser des sucs de cuisson en suspension dans la graisse en les chauffant sur le feu (plaque à rôtir, sautoir) avant de \"dégraisser\" et de \"déglacer\"."
+    - "Action de strier les bords d'une tarte, d'une quiche ou d'un pâté en croûte à l'aide d'une \"pince tarte\" ou \"pince à chiqueter\"."
+-
+  name: "Piquer"
+  desc:
+    - "Action d'introduire des gousse d'ail dans une viande."
+    - "Action de parsemer la surface d'une pièce de viande des petits bâtonnets  ou \"clous\" de lard gras à l'aide d'une \"aiguille à piquer\" (grenadin de veau, râble de lapin...)."
+    - "Action de pratiquer des trous dans une pâte crue avant sa cuisson, à l'aide d'une fourchette, la pointe d'un couteau ou d'un rouleau \"pique vite\"."
+    - "Action de piquer des charcuteries (saucisses, saucissons, merguez, boudins...) à l'aide d'un fourchette afin qu'elles n'éclatent pas en cuisson."
+-
+  name: "Plaquer"
+  desc:
+    - "Action de mettre un aliment dans une plaque à rôtir, ou un plat de cuisson beurré en vue de sa cuisson (filet de sole, truite braisée...)."
+    - "Action de dresser sur une plaque à pâtisserie des allumettes, bouchées, croûtes.. en vue de leur cuisson."
+-
+  name: "Plumer"
+  desc: "Action d'arracher les plumes d'une volaille ou d'un gibier."
+-
+  name: "Pocher"
+  desc:
+    - "Action de cuire un aliment (viande, poisson, oeuf, fruits...) dans un liquide chaud ou froid (bouillon, fumet, eau, sirop..) à une température proche de l'ébullition (frémissement)."
+    - "Action de plonger des frites ou pommes Pont Neuf, dans un bain de friture à 150° pour les prés cuire (sans coloration). Autre terme utilisé : \"blanchir\"."
+-
+  name: "Poêler"
+  desc: "Action de cuire un aliment dans un récipient haut, couvert avec un garniture aromatique (carré de veau , carré de porc,  canard, poulet reine...)."
+-
+  name: "Pointer"
+  desc: "Action de laisser gonfler une première fois une pâte levée dans une étuve. Autre terme utilisé : \"pousser\"."
+-
+  name: "Poivrer"
+  desc: "Action d'assaisonner un ingrédient ou de relever une préparation en ajoutant du poivre moulu blanc ou noir."
+-
+  name: "Poudrer"
+  desc:
+    - "Action de parsemer une préparation ou une assiette de sucre glace ou de cacao à l'aide d'une \"poudrette\"."
+    - "Action de parsemer de la semoule ou de la farine sur une pâte. Autre terme utilisé : \"fleurer\"."
+-
+  name: "Pousser"
+  desc:
+    - "Action de laisser fermenter et gonfler , une pâte levée (brioche, croissant, pain de mie..) en la mettant dans une étuve ou un endroit tiède. Autre terme utilisé : \"pointer\"."
+    - "Action de presser sur une poche à douille afin d'en expulser le contenu."
+-
+  name: "Pré cuire"
+  desc:
+    - "Action de commencer un cuisson un cours instant (fond de tarte, ou de quiche). Autre terme utilisé :\"cuire à blanc\"."
+    - "Action de commencer une cuisson sans donner de coloration (pommes Pont Neuf, frites). Autres termes  utilisés \"blanchir\" ou \"pocher\"."
+-
+  name: "Presser"
+  desc:
+    - "Action d'éliminer l'eau d'un abats blanchi (ris de veau) en le pressant entre des grilles, ou d'une laitue blanchie en la pressant entre les mains."
+    - "Action de comprimer une terrine, un foie gras cuit, en fin de cuisson en leur exerçant une pression jusqu'à complet refroidissement."
+    - "Action de récupérer le jus d'un agrumes à l'aide d'un presse-agrume. Autre terme utilisé : \"exprimer\"."
+-
+  name: "Quadriller"
+  desc:
+    - "Action de marquer un aliment sur les barreaux d'un grill chaud."
+    - "Action de marquer avec le dos d'un couteau à émincer la surface d'un pièce panée crue (escalope, filet de poisson, merlan...)."
+-
+  name: "Rafraîchir"
+  desc: "Action de faire couler de l'eau froide sur un ingrédient que l'on vient de blanchir ou de cuire, pour le refroidir rapidement.  Action de refroidir une salade de fruits au réfrigérateur (salade de fruits rafraîchis)."
+-
+  name: "Raidir"
+  desc: "Action de raffermir les chairs d'une viande sans la colorer dans du beurre chaud, la cuisson complète de la viande se fait généralement dans une sauce blanche (fricassée de veau, de volaille, blanquette de poisson...)."
+-
+  name: "Râper"
+  desc: "Action de réduire en fines particules un élément solide à l'aide d'un râpe adéquate (râpe à fromage, à crudité, mandoline, à muscade, à zeste)."
+-
+  name: "Rassir"
+  desc: "Action de laisser s'attendrir de la viande, au froid (2°), pendant quelques jours. Autre terme utilisé : \"mortifier\"."
+-
+  name: "Rayer"
+  desc: "Action de décorer le dessus d'une pâtisserie (galette des rois, Pithiviers, sablés...) ou d'un friand (allumette, roulé aux saucisses...) à l'aide d'un couteau ou d'une fourchette."
+-
+  name: "Réchauffer"
+  desc: "Action de régénérer la température un aliment déjà cuit et froid (pâte ou riz dans une \"chauffante\", plat sous vide au bain marie, assiette garnie au micro-ondes)."
+-
+  name: "Rectifier"
+  desc: "Action de corriger l'assaisonnement et la liaison d'une préparation, en vue de sa dégustation. Autre terme utilisé : \"corriger\"."
+-
+  name: "Recuire"
+  desc:
+    - "Action de mener à un degré supérieur la cuisson d'une confiture, d'une gelée, ou marmelade."
+    - "Action de parfaire une cuisson trop juste (saignante, ou rosée)."
+-
+  name: "Réduire"
+  desc: "Action de diminuer le volume d'un liquide (fond, jus, fumet), par évaporation plus ou moins lente, en vue d'en concentrer la saveur , les sucs et améliorer sa consistance (jus de poulet rôti, fumet pour glace de poisson...)."
+-
+  name: "Refroidir"
+  desc:
+    - "Action d'abaisser rapidement la température d'un aliment en l'immergeant dans de l'eau glacée (haricots verts, petits pois, navets...)."
+    - "Action de descendre rapidement la température d'une préparation farce, appareil, crème en les plaçant dans une cellule de refroidissement rapide."
+-
+  name: "Relâcher"
+  desc: "Action de rajouter une quantité de liquide de même nature que la préparation pour la rendre moins épaisse. Autre terme utilisé : \"détendre\"."
+-
+  name: "Relever"
+  desc: "Action de renforcer l'assaisonnement d'une préparation en sel, poivre et très souvent en épices."
+-
+  name: "Remonter"
+  desc: "Action d'homogénéiser une sauce émulsionnée (mayonnaise, hollandaise..) qui est dissociée ou \"tournée\"."
+-
+  name: "Remuer"
+  desc: "Action de mélanger à l'aide d'une spatule en bois ou d'un fouet une préparation en cours de cuisson (pâte, riz, sauce béchamel , potage, ragoût...)."
+-
+  name: "Reposer"
+  desc: "Action de passer au froid une pâte brisée, feuilletée...afin d'éviter de donner trop de \"corps\" ou d'élasticité à la pâte et permettre un travail plus facile, et obtenir un meilleur résultat."
+-
+  name: "Réserver"
+  desc: "Action de mettre de côté au froid ou au chaud, des ingrédients ou des préparation en vue d'une utilisation ultérieure."
+-
+  name: "Rioler"
+  desc: "Action de décorer le dessus d'une tarte avant sa cuisson de petites bandes de pâte disposées en croisillons (Linzertorte, tarte aux prunes...)."
+-
+  name: "Rissoler"
+  desc: "Action de colorer (caramélisation) sur un feu vif toutes les faces d'une viande entière ou détaillée en morceaux."
+-
+  name: "Rompre"
+  desc: "Action de stopper brusquement la fermentation ou \"pousse\" d'une pâte levée, en la rabattant sur elle même."
+-
+  name: "Rôtir"
+  desc: "Action de cuire une pièce entière à la chaleur rayonnante du foyer (rôtissoire, four, tourne broche) ou une chaleur humide (en cocotte)."
+-
+  name: "Sabler"
+  desc: "Action de donner la consistance de sable,  au mélange de beurre et farine en vue de réaliser une pâte sablée ou brisée."
+-
+  name: "Saisir"
+  desc: "Action de commencer ou de cuire complètement une pièce de viande ou un poisson dans un corps gras chaud."
+-
+  name: "Saler"
+  desc:
+    - "Action de confire au gros sel pendant quelques heures des filets de poisson (saumon, flétan...) en vue de les servir marinés ou les traiter en fumaison."
+    - "Action d'assaisonner une grande quantité d'eau au gros sel (cuisson à l'Anglaise)."
+    - "Action d'assaisonner un ingrédient ou une préparation en lui ajoutant du sel fin. Autre terme utilisé : \"assaisonner\"."
+-
+  name: "Sangler"
+  desc: "Action d'entourer de glace vive et de gros sel bien tassés, un présentoir à crème glacée, ou un moule à bombe, en vue de conserver la crème à l'état glacé."
+-
+  name: "Sasser"
+  desc: "Action d'éplucher certain légumes ou fruits secs en les frottant entre eux dans un torchons, en ajoutant du gros sel."
+-
+  name: "Saucer"
+  desc: "Action de napper un préparation de sa sauce d'accompagnement (poulet cocotte grand-mère), ou la disposer autour du plat ou dans l'assiette de dressage. "
+-
+  name: "Saumurer"
+  desc: "Action de plonger plus ou moins longtemps des aliments dans une saumure (olives , viande, poisson, charcuterie), Des techniques modernes permettent d'injecter directement la saumure à l'intérieur des muscles (salaisons industrielles)."
+-
+  name: "Saupoudrer"
+  desc: "Action de parsemer avec parcimonie des préparation de persil haché, de sucre glace, de gruyère râpé, cacao..."
+-
+  name: "Sauter"
+  desc: "Action de cuire de petites pièces de viandes, des poissons, des légumes, des oeufs... dans très peu de corps gras chaud."
+-
+  name: "Sécher"
+  desc: "Action d'éliminer l'excès d'humidité sur un ingrédient (poisson ou légumes) à l'aide d'un torchon ou d'un papier absorbant avant de le cuire."
+-
+  name: "Serrer"
+  desc: "Action de travailler rapidement au fouet et dans un sens circulaire les blancs d'oeufs montés en neige."
+-
+  name: "Singer"
+  desc: "Action de saupoudrer de farine des morceaux de viande en cours de rissolage en vue de réaliser une liaison après mouillement et cuisson de la préparation (daube, ragoût)."
+-
+  name: "Siroper"
+  desc: "Action de tremper ou d'arroser un gâteau de pâte levée (baba, savarin, marignan, pomponette...)  avec un sirop de sucre chaud parfumé à l'alcool. Autres termes utilisés \"imbiber\", \"siroter\", \"puncher\"."
+-
+  name: "Souder"
+  desc: "Action d'encoller à l'eau ou à l'oeuf et de presser avec les doigts, les deux abaisses d'un vol au vent ou d'une bouchée. Il est fréquent de \"chiqueter\" pour améliorer cette soudure. "
+-
+  name: "Stériliser"
+  desc: "Action de pratiquer une ébullition plus ou moins longue sur des bocaux hermétiquement fermés et contenant des aliments. La stérilisation se déroule à une température de 100°. Autre terme utilisé : \"appertiser\"."
+-
+  name: "Sucrer"
+  desc: "Action de saupoudrer de sucre une préparation (crêpes, gaufres, beignets...) ou d'assaisonner une sauce (tomate)."
+-
+  name: "Suer"
+  desc: "Action de cuire sans coloration des légumes taillés en fins (julienne, ciselés) dans du beurre chaud, pour faire sortir l'eau de végétation. "
+-
+  name: "Tabler"
+  desc: "Action de mettre au point une masse de chocolat sur un marbre en maîtrisant la courbe des températures de cristallisation."
+-
+  name: "Tailler"
+  desc: "Action de découper des légumes en respectant la taille et la forme de l'appellation (julienne, brunoise, paysanne..)."
+-
+  name: "Tamiser"
+  desc: "Action de passer un ingrédient à travers un tamis pour le débarrasser d'éventuelle impuretés ou grumeaux (farine, chapelure, mie de pain...)."
+-
+  name: "Tamponner"
+  desc: "Action de parsemer le dessus d'une sauce ou d'un potage (réservés au chaud) de petites parcelles de beurre, afin d'éviter la formation de peau au contact de l'air."
+-
+  name: "Tartiner"
+  desc: "Action d'étaler un produit en pommade (beurre, beurre composé, pâté de foie...) sur des tranches de pain de mie ou des toasts. Autres termes utilisés \"beurrer\", \"masquer\"."
+-
+  name: "Tomber"
+  desc: "Action de cuire doucement certains légumes épinards, oseille, dans leur eau de constitution."
+-
+  name: "Torréfier"
+  desc: "Action de colorer de la farine au four en vue de réaliser la liaison des ragoûts."
+-
+  name: "Tourer"
+  desc: "Action de pratiquer des plis successifs \"tours\" sur une pâton de feuilletage à l'aide d'un rouleau à pâtisserie ou d'un laminoir."
+-
+  name: "Tourner"
+  desc: "Action de donner une forme voulue à un légume à l'aide d'un couteau d'office ( cocotte, Anglaise, Château...)."
+-
+  name: "Trancher"
+  desc:
+    - "Action de détailler en tranches fines et régulières des viandes chaudes ou froides à l'aide d'un couteau à trancher."
+    - "Action de couper de la charcuterie (jambon saucissons...) à l'aide d'un machine à trancher."
+-
+  name: "Travailler"
+  desc:
+    - "Action de mélanger énergiquement une farce mousseline à l'aide d'un spatule pour lui donner du corps et de la tenue et la rendre homogène. Autre terme utilisé : \"monter sur glace\"."
+    - "Action de mélanger énergiquement les ingrédients d'un pâte afin de lui donner de l'élasticité et la rendre lisse."
+-
+  name: "Tremper"
+  desc:
+    - "Action de laisser des légumes secs plus ou moins longtemps dans de l'eau froide pour ce réhydrater."
+    - "Action de dessaler de la morue en la laissant dans de l'eau courante."
+-
+  name: "Tronçonner"
+  desc:
+    - "Action de détailler régulièrement des légumes (carottes, navets..) avant de les tourner."
+    - "Action de détailler des morceaux de certain poisson (turbots, barbue, congre anguille...)."
+-
+  name: "Trousser"
+  desc:
+    - "Action de maintenir les pâtes d'un volaille ou d'un gibier à plumes en pratiquant de petites incisions sur ses flanc avant de le \"brider\"."
+    - "Action de replier les pâtes de certains crustacés (écrevisses, langoustines), en les piquant dans leur abdomen."
+-
+  name: "Truffer"
+  desc:
+    - "Action de glisser des lames de truffes sous la peau d'une poularde avant sa cuisson."
+    - "Action d'incorporer des morceaux de truffes dans une préparation (foie gras, terrine, farce)."
+-
+  name: "Turbiner"
+  desc: "Action de faire prendre par le froid négatif une crème glacée ou un sorbet dans une \"sorbetière\"ou\"turbine à glace\"."
+-
+  name: "Vaniller"
+  desc: "Action de renforcer en parfum vanille une préparation crème ou sauce."
+-
+  name: "Vanner"
+  desc: "Action de remuer une crème, une sauce ou un appareil, à l'aide d'une spatule en bois afin de le refroidir, de l'homogénéiser, et éviter la formation de peau superficielle."
+-
+  name: "Videler"
+  desc: "Action de rabattre et de pincer les bords d'une tourte en réalisant un ourlet de pâte (tourte, pâtés, chausson, rissoles)."
+-
+  name: "Vider"
+  desc: "Action d'éliminer les viscères d'un poisson ou d'une volaille."
+-
+  name: "Voiler"
+  desc: "Action de décorer d'un voile de sucre cuit au grand cassé ou caramel blond une pâtisserie."
+-
+  name: "Zester"
+  desc: "Action de retirer le zeste d'un agrume à l'aide d'un \"zesteur\"ou d'un couteau économe."

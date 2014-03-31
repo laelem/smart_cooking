@@ -1,7 +1,8 @@
+- nav = t(:nav)
 %nav#nav
   %ul
-    %li>= link_to t(:nav_recipes), "#"
-    %li>= link_to t(:nav_menus), "#"
-    %li>= link_to t(:nav_wiki), "#"
-    %li>= link_to t(:nav_my_space), "#"
-    %li>= link_to t(:nav_about), "#"
+    %li>= link_to nav[:recipes], "#"
+    %li>= link_to nav[:menus], "#"
+    %li>= link_to nav[:wiki], "#", id: "wiki_nav_link"
+    %li>= link_to nav[:my_space], "#"
+    %li>= link_to nav[:about], "#"

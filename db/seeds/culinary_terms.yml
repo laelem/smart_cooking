@@ -1,0 +1,144 @@
+-
+  name: "Abaisse"
+  desc: "morceau de pâte étalée au rouleau qui constitue le fond de beaucoup de pâtisseries."
+-
+  name: "Abattis"
+  desc: "bas-morceau d'une volaille : patte, cou, ailes, foie, gésier."
+-
+  name: "Aiguillette"
+  desc: "mince et longue tranche coupée dans le blanc de volaille. Désigne également une fine tranche de viande de boucherie."
+-
+  name: "Appareil"
+  desc: "préparation culinaire composée de plusieurs éléments et destinée à la confection d'un plat."
+-
+  name: "Aromates"
+  desc: "substances végétales dégageant une odeur et employées pour parfumer les plats."
+-
+  name: "Aspic"
+  desc: "mode de présentation de plats froids consistant à enrober des mets divers dans une gelée salée ou sucrée."
+-
+  name: "Bain-marie"
+  desc: "bain d'eau bouillante dans lequel on place un récipient contenant une préparation que l'on veut réchauffer, garder au chaud, ou faire cuire."
+-
+  name: "Barbecue"
+  desc: "procédé de cuisson qui consiste à faire cuire les aliments sur des braises rougeoyantes."
+-
+  name: "Bavaroise"
+  desc: "dessert froid à base de crême anglaise additionnée de gélatine et de crème fouettée."
+-
+  name: "Beurre manié"
+  desc: "beurre mélangé avec de la farine ou de la fécule, et servant à lier de nombreuses sauces."
+-
+  name: "Blanc"
+  desc: "court-bouillon d'eau bouillante additionnée d'une cuillerée de vinaigre et une cuillerée de farine par litre d'eau, utilisé pour éviter certain légumes de noircir avant leur cuisson."
+-
+  name: "Bouquet garni"
+  desc: "petit bouquet composé de thym, laurier et persil liés ensemble, que l'on ajoute aux sauces et aux bouillons pour leur donner du goût. Se retire avant de servir."
+-
+  name: "Bouillon"
+  desc: "eau de cuisson des légumes ou de viande, imprégnée de leurs sucs. Elle peut se consommer ainsi, ou bien être utilisée pour la confection d'une sauce."
+-
+  name: "Canapé"
+  desc: "tranche de pain de mie qui peut, soit être grillée ou frite dans du beurre pour servir de support à une viande ou à une volaille, soit être employée nature et recouverte de garnitures diverses, pour un buffet froid."
+-
+  name: "Chapelure"
+  desc: "pain séché et réduit en poudre, servant à paner certains aliments qui seront frits ensuite, ou à saupoudrer des plats pour les faire gratiner."
+-
+  name: "Chiffonade"
+  desc: "légumes en feuilles coupés en lanières et cuits dans le beurre."
+-
+  name: "Coulis"
+  desc: "suc concentré et épais de viande ou de légumes et passé au tamis."
+-
+  name: "Court-bouillon"
+  desc: "liquide aromatisé servant à faire cuire principalement poissons et crustacés."
+-
+  name: "Darne"
+  desc: "tranche de poisson découpé à cru."
+-
+  name: "Décoction"
+  desc: "extrait des sucs d'une substance mise dans un liquide en ébullition."
+-
+  name: "Duxelles"
+  desc: "préparation destinée à corser le goût d'une farce ou d'une sauce."
+-
+  name: "Ecailler"
+  desc: "ôter les écailles d'un poisson ; ouvrir un coquillage."
+-
+  name: "Ecaler"
+  desc: "ôter la coque des noix, des noisettes, des amandes, etc."
+-
+  name: "Echauder"
+  desc: "plonger dans l'eau bouillante pendant quelques minutes un animal (ou un légume) dont on veut enlever facilement la peau."
+-
+  name: "Etamine"
+  desc: "morceau d'étoffe très fine à travers laquelle on passe certaines sauces ou purées pour les rendre homogènes."
+-
+  name: "Etouffée"
+  desc: "mode de cuisson des aliments à la vapeur dans un récipient fermé. On dit aussi : étuvée."
+-
+  name: "Etuvée"
+  desc: "mode de cuisson des aliments à la vapeur dans un récipient fermé. On dit aussi : étouffée."
+-
+  name: "Fonds"
+  desc: "bouillons très concentrés servant de base à de nombreuses sauces (fond blanc, fond brun, fond de gibier, fond ou fumet de poisson)."
+-
+  name: "Fontaine"
+  desc: "trou pratiqué au centre d'un tas de farine afin d'y placer les ingrédients qui doivent être mélangés progressivement et régulièrement : oeufs, sucre, levure, liquide, etc."
+-
+  name: "Fumet"
+  desc: "bouillon très concentré à base de légumes ou de viandes utilisé pour parfumer les sauces."
+-
+  name: "Grumeaux"
+  desc: "petites boules qui se forment dans une sauce mal travaillée."
+-
+  name: "Jardinière"
+  desc: "légumes taillés en bâtonnets, cuits à l'anglaise, égouttés et mélangés avec des petits-pois."
+-
+  name: "Julienne"
+  desc: "façon de couper des légumes en petits bâtonnets."
+-
+  name: "Macédoine"
+  desc: "mélange de légumes ou de fruits coupés en morceaux, servi froid ou chaud."
+-
+  name: "Marinade"
+  desc: "liquide aromatisé dans lequel on fait tremper une viande, du gibier ou un poisson, afin de l'attendrir ou de l'aromatiser."
+-
+  name: "Mirepoix"
+  desc: "préparation composée de légumes et d'aromates fondus à l'étouffée, destinée à rehausser la saveur de certaines sauces."
+-
+  name: "Rouelle"
+  desc: "tranche épaisse de veau coupée transversalement dans le jarret. Par extension, tranche épaisse."
+-
+  name: "Roux"
+  desc: "mélange de farine et de beurre que l'on fait cuire plus ou moins longtemps selon la couleur que l'on désire obtenir : roux blanc, blond ou brun."
+-
+  name: "Salpicon"
+  desc: "mélange d'aliments coupés en dés et liés avec une sauce."
+-
+  name: "Sapide"
+  desc: "sauce qui a du goût, de la saveur."
+-
+  name: "Sucs"
+  desc: "substances nutritives obtenus par la cuisson d'une viande, qui se fixent et se caramélisent au fond du récipient où la pièce a été traitée."
+-
+  name: "Suprêmes d'agrumes"
+  desc: "quartiers d'agrumes débarrassés de leur peau."
+-
+  name: "Tronçon"
+  desc: "morceau oblong de poisson, pris sur toute l'épaisseur."
+-
+  name: "Turban"
+  desc: "mode de présentation de certaines préparations en couronne."
+-
+  name: "Venaison"
+  desc: "grosse pièce de gibier."
+-
+  name: "Vert cuit"
+  desc: "cuisson incomplète, presque crue."
+-
+  name: "Vol-au-vent"
+  desc: "entrée chaude composée d'une croûte ronde en pâte feuilletée, généralement remplie d'une garniture dite \"à la financière\"."
+-
+  name: "Zeste"
+  desc: "partie extérieure de l'écorce d'orange ou de citron employée en pâtisserie, en confiserie ou en cuisine."

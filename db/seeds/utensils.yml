@@ -1,0 +1,135 @@
+-
+  name: "Autocuiseur"
+  desc: "Sorte de Marmite (ou Faitout) hermétiquement fermée dans laquelle on fait augmenter la température et la pression pour cuire les aliments beaucoup plus vite."
+-
+  name: "Batteur (électrique)"
+  desc: "Appareil qui remplace le fouet manuel permettant de battre les différents ingrédients d'une préparation, qui fonctionne à plusieurs vitesses, et dont les accessoires sont soit en matière plastique soit en métal."
+-
+  name: "Blender"
+  desc: "Bol mixeur."
+-
+  name: "Casse-noix"
+  desc: "Ustensile en forme de pince qui permet de briser la coque des noix (et souvent des noisettes) sans abîmer le fruit interne."
+-
+  name: "Chaleur tournante ou air pulsé"
+  desc: "Fonction des fours particulièrement adaptée à la pâtisserie."
+-
+  name: "Chalumeau"
+  desc: "Indispensable pour obtenir du croquant sur les crèmes brûlées, plus régulier et performant que le grill du four."
+-
+  name: "Chauffe-Plat"
+  desc: "Ustensile qui permet de conserver les plats au chaud sur la table à manger."
+-
+  name: "Chinois"
+  desc: "Petite passoire en forme d'entonnoir, avec des trous minuscules, servant surtout à passer les sauces."
+-
+  name: "Cocotte-Minute"
+  desc: "Autocuiseur."
+-
+  name: "Coquetier"
+  desc: "Petit récipient qui permet de maintenir un œuf à la coque, pendant qu'on le déguste."
+-
+  name: "Couvert"
+  desc: "Ensemble des ustensiles de table nécessaires à une personne ; traditionnellement il se compose d'un couteau, d’une fourchette, d’une cuillère au minimum. Mais sa signification s'est élargie au cours des temps et aujourd'hui un « couvert » intègre souvent d'autres éléments du service de table comme l'assiette, les verres... Etc.."
+-
+  name: "Cul de poule"
+  desc: "Sorte de saladier généralement en inox à fond plat ou arrondi."
+-
+  name: "Dariole"
+  desc: "Moule de petite taille et de forme cylindrique, à peine évasé, utilisé le plus souvent en pâtisserie."
+-
+  name: "Daubière"
+  desc: "Récipient de cuisson servant principalement aux longs mijotages (cuisson de la daube) ou pour les longues cuissons au four."
+-
+  name: "Douille"
+  desc: "Embout pour les poches à douille utilisée en cuisine pour décorer ou garnir des mets. Il en existe de différentes formes et dimensions."
+-
+  name: "Econome ou Éplucheur"
+  desc: "Sorte de couteau pointu à lame courte, avec deux fentes à bord très coupant, permettant d'éplucher les légumes ou les fruits en retirant une fine pellicule de peau."
+-
+  name: "Emporte-pièce"
+  desc: "Ustensile en métal ou plastique de diverses formes et tailles pour découper la pâte."
+-
+  name: "Fouet"
+  desc: "Ustensile muni d'un manche et de fils métalliques rigides, qui sert à battre rapidement les sauces, crèmes ou blancs en neige afin de les aérer ou de les rendre plus fermes."
+-
+  name: "Girafe"
+  desc: "Mixeur à main plongeant."
+-
+  name: "Hachoir"
+  desc: "Ustensile qui sert à hacher les ingrédients qui composent certaines recettes. Il peut être manuel à lame tranchante en forme d'arc de cercle, ou mécanique (avec une petite manivelle), voire électrique (en particulier pour la viande). Le Hachoir berceuse est muni de deux petits manches permettant de le prendre avec deux mains. Il nécessite une planche pour contenir les ingrédients à hacher."
+-
+  name: "Jarre"
+  desc: "Grand récipient en forme de vase au col resserré, permettant de transporter les liquides. Les Jarres ont des tailles très variables, souvent de grande dimension."
+-
+  name: "Jatte"
+  desc: "Récipient de forme hémisphérique avec un petit fond plat pour qu'elle puisse tenir sur la table. Elle est le plus souvent en verre, métal ou plastic."
+-
+  name: "Lèchefrite"
+  desc: "Ustensile rectangulaire, en fer battu ou émaillé, servant a recueillir le jus des rôtis sous un grill ou une broche."
+-
+  name: "Mandoline"
+  desc: "Accessoire qui permet de couper les fruits et les légumes en fines tranches ou en lamelles. Elle se compose d'un socle sur lequel est fixée une lame. Le fait de passer l'aliment sur la lame le découpe. Cela permet de faire une découpe parfaite en un temps record. Il existe plusieurs types de lames plates ou nervurées pour varier les découpes."
+-
+  name: "Maryse"
+  desc: "Spatule en caoutchouc."
+-
+  name: "Mortier"
+  desc: "Récipient en forme de bol à bords très épais, en général en bois. On lui associe un pilon, soit en bois, soit en inox, pour écraser ou piler les aliments qui rentrent dans la composition de certaines recettes."
+-
+  name: "Moule à manqué"
+  desc: "Moule à gâteau rond et à bord haut généralement utilisé pour cuire génoises ou quatre-quarts."
+-
+  name: "Moules en silicone"
+  desc: "Peuvent être utilisés de -40°C à + 280°C. Ils ne se graissent pas et se démoulent facilement."
+-
+  name: "Pèse-sirop"
+  desc: "Ustensile ressemblant à un petit thermomètre qui sert à indiquer la teneur en sucre d'un sirop."
+-
+  name: "Pinceau de cuisine"
+  desc: "Ustensile à manche avec des poils en nylon en forme de pinceau de peintre. Il sert à répandre uniformément sur un aliment (viande, poisson, gâteau...) des substances liquides (beurre fondu, sauce, œuf...)."
+-
+  name: "Pique"
+  desc: "Utiles pour vérifier les cuissons des cakes ou gâteaux."
+-
+  name: "Poches à douille"
+  desc: "En tissu plastifié réutilisables ou jetables, elles servent à mouler les choux, éclairs, macarons, mousses, chantilly, etc., décorer ou garnir des mets."
+-
+  name: "Poissonnière"
+  desc: "Grand récipient allongé à hauts bords. Elle permet de faire cuire les poissons au court- bouillon, en entier."
+-
+  name: "Presse-agrumes"
+  desc: "Ustensile servant à recueillir le jus des agrumes (orange, citron, pamplemousse...)."
+-
+  name: "Presse-purée"
+  desc: "Ustensile permettant de réduire en purée les légumes cuits. Il est aussi parfois appelé « presse-légumes »."
+-
+  name: "Râpe"
+  desc: "Ustensile qui sert à réduire en fines particules différents produits alimentaires (légumes, fromages...)."
+-
+  name: "Rouleau à Pâtisserie"
+  desc: "Ustensile de cuisine cylindrique, généralement en bois, muni d'une poignée à chaque extrémité servant à abaisser et étirer la pâte par un mouvement de va-et-vient sur le plan de travail."
+-
+  name: "Saladier"
+  desc: "Récipient assez grand, creux, plus ou moins profond selon le modèle, accompagné de couverts pour servir la salade."
+-
+  name: "Saucier"
+  desc: "Récipient qui permet de servir les sauces ou les jus qui accompagnent les plats."
+-
+  name: "Sauteuse"
+  desc: "Ustensile ayant la forme d'une poêle à bords verticaux et hauts, munie d'un couvercle."
+-
+  name: "Sorbetière"
+  desc: "Appareil de cuisine permettant de réaliser des glaces et sorbets. Elle comprend en particulier un bac réfrigérant et une palette intérieure qui tourne à l'aide d'un moteur électrique et permet aux ingrédients de se transformer en glace."
+-
+  name: "Spatule"
+  desc: "Ustensile à long manche, ayant une partie plate et large (avec ou sans trous). La spatule sert à soulever les aliments par le dessous sans les abîmer, dans une poêle par exemple. Il en existe de plusieurs matières (bois, métal ou matériau antiadhésif). La spatule coudée est très pratique pour lisser les entremets, plus utile que les spatules classiques."
+-
+  name: "Thermos"
+  desc: "Bouteille isolée à double paroi qui permet de conserver un liquide au chaud ou au froid (café, thé, soupe, coca...)."
+-
+  name: "Thermo sonde"
+  desc: "Thermomètre électronique permettant par exemple de cuire avec précision les pâtes de fruits et autres confiserie, de tempérer avec exactitude le chocolat, etc.."
+-
+  name: "Wok"
+  desc: "Ustensile d'origine chinoise, qui ressemble à une sorte de grande poêle en forme demi-sphérique. Cette forme arrondie permet de saisir les aliments au centre et de les retourner très facilement."

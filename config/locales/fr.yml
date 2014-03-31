@@ -1,7 +1,117 @@
 fr:
+  activerecord:
+    attributes:
+      culinary_term:
+        name: "Terme culinaire"
+        description: "Description"
+      ingredient:
+        name: "Nom"
+        description: "Description"
+      photo:
+        file: "Fichier"
+      recipe_instruction:
+        instruction: "Instruction"
+      recipe:
+        name: "Nom"
+        dish: "Type de plat"
+        nb_slices: "Pour"
+        complexity: "Difficulté"
+        taste: "Goût"
+        balanced_diet: "Equilibre alimentaire"
+        cost: "Prix"
+        continent: "Continent"
+        country: "Pays"
+        city: "Ville"
+        wine: "Conseils vins"
+        preparation_time: "Temps de préparation"
+        cooking_time: "Temps de cuisson"
+      skill_description:
+        description: "Description"
+      skill:
+        name: "Nom"
+      tag:
+        name: "Nom"
+      utensil:
+        name: "Nom"
+        description: "Description"
+
   application_title: Smart cooking
-  nav_recipes: Recettes
-  nav_menus: Menus
-  nav_wiki: Wiki
-  nav_my_space: Mon espace
-  nav_about: A propos
+
+  save: Enregistrer
+  back: Retour
+
+  nav:
+    recipes: Recettes
+    menus: Menus
+    wiki: Wiki
+    my_space: Mon espace
+    about: A propos
+
+  wiki:
+    search_label: "Rechercher un ingrédient, un ustensile, une technique :"
+    no_result: "Aucun résultat trouvé."
+    no_description: "Aucune description."
+    ingredient: "Ingrédient"
+    skill: "Technique"
+    utensil: "Ustensile"
+    culinary_term: "Terme culinaire"
+
+  recipe_form:
+    add_recipe: "Ajouter une recette : "
+    slices: "parts"
+    people: "personnes"
+    time_hours: "H"
+    time_minutes: "min"
+    indifferent: "Indifférent"
+    fieldsets:
+      general: "Général"
+      specifications: "Caractéristiques"
+      ingredients: "Ingédients"
+      instructions: "Instructions"
+      further_information: "Informations complémentaires"
+
+  dish:
+    starter: "Entrée"
+    main_course: "Plat principal"
+    dessert: "Déssert"
+    side_dish: "Accompagnement"
+    appetizer: "Amuse-bouche"
+    drink: "Boisson"
+    candy: "Confiserie"
+    sauce: "Sauce"
+
+  complexity:
+    hard: "Difficile"
+    medium: "Moyen"
+    easy: "Facile"
+    very_easy: "Très facile"
+
+  taste:
+    bad: "Mauvais"
+    medium: "Moyen"
+    good: "Bon"
+    very_good: "Très bon"
+
+  balanced_diet:
+    dietary: "Diététique"
+    medium: "Moyen"
+    caloric: "Calorique"
+
+  cost:
+    cheap: "Bon marché"
+    medium: "Moyen"
+    expensive: "Cher"
+
+  measure:
+    g: "g"
+    kg: "Kg"
+    ml: "mL"
+    cl: "cL"
+    l: "L"
+    tablespoon: "cuillère à soupe"
+    teaspoon: "cuillère à café"
+    pinch: "pincée"
+    tin: "boîte"
+    glass: "verre"
+    cup: "cup"
+    oz: "oz"

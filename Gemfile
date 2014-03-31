@@ -43,6 +43,14 @@ gem 'factory_girl_rails', '~> 4.0'
 
 gem 'haml'
 
+gem 'rails-i18n', '~> 4.0.0'
+
+gem 'font-awesome-sass'
+
+gem 'jquery-ui-rails'
+
+gem 'composite_primary_keys'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -80,4 +88,4 @@ end
 
 
 # temporary, to solve the gem issue
-gem 'thread_safe', '0.2.0'
+# gem 'thread_safe', '0.2.0'

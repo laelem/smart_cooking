@@ -1,0 +1,147 @@
+/ = render 'shared/error_messages', object: f.object
+/ = render 'shared/message_required'
+
+%h1
+  = t(:'recipe_form.add_recipe')
+  = f.text_field :name,
+    size: SIZE_DEFAULT_INPUT_TEXT,
+    maxlength: MAX_SIZE_DEFAULT_INPUT_TEXT,
+    autofocus: true
+
+%fieldset.general
+  %section.dish
+    %ul.radio
+      - RECIPE_DISH.each do |dish|
+        %li
+          %label{for: "dish_#{dish}"}
+            = radio_button_tag(:dish, dish)
+            = t(:"dish.#{dish}")
+      %li.dish_none.active
+        %label{for: "dish_"}
+          = radio_button_tag(:dish, '', true)
+          = t(:"recipe_form.indifferent")
+
+  %section
+    %div
+      = f.label :nb_slices
+      = f.number_field :nb_slices, { in: 1...MAX_RECIPE_NB_SLICES_OR_PEOPLE,
+        size: 1, maxlength: 3 }
+      %ul.radio.inline
+        - RECIPE_TYPE_SLICES.each do |type|
+          %li>
+            %label{for: "type_slices_#{type}"}
+              = radio_button_tag(:type_slices, type)
+              = t(:"recipe_form.#{type}")
+
+    %div
+      = f.label :preparation_time
+      = number_field_tag :preparation_time_hours, '', { in: 1...MAX_RECIPE_NB_HOUR,
+        size: 1, maxlength: 2 }
+      = label_tag :preparation_time_hours, t(:'recipe_form.time_hours')
+      = number_field_tag :preparation_time_minutes, '', { in: 1...60,
+        size: 1, maxlength: 2 }
+      = label_tag :preparation_time_minutes, t(:'recipe_form.time_minutes')
+
+    %div
+      = f.label :cooking_time
+      = number_field_tag :cooking_time_hours, '', { in: 1...MAX_RECIPE_NB_HOUR,
+        size: 1, maxlength: 2 }
+      = label_tag :cooking_time_hours, t(:'recipe_form.time_hours')
+      = number_field_tag :cooking_time_minutes, '', { in: 1...60,
+        size: 1, maxlength: 2 }
+      = label_tag :cooking_time_minutes, t(:'recipe_form.time_minutes')
+
+    %section.spec
+      %div
+        = f.label :complexity
+        = f.hidden_field :complexity
+        %div.icons
+          - RECIPE_COMPLEXITY.each do |complexity|
+            %i{class: "fa fa-cutlery",
+              title: t(:"complexity.#{complexity}"),
+              data: {value: complexity}}>
+        %span.indifferent.active= t(:"recipe_form.indifferent")
+
+      %div
+        = f.label :taste
+        = f.hidden_field :taste
+        %div.icons
+          - RECIPE_TASTE.each do |taste|
+            %i{class: "fa fa-heart",
+              title: t(:"taste.#{taste}"),
+              data: {value: taste}}>
+        %span.indifferent.active= t(:"recipe_form.indifferent")
+
+      %div
+        = f.label :balanced_diet
+        = f.hidden_field :balanced_diet
+        %div.icons
+          - RECIPE_BALANCED_DIET.each do |balanced_diet|
+            %i{class: "fa fa-leaf",
+              title: t(:"balanced_diet.#{balanced_diet}"),
+              data: {value: balanced_diet}}>
+        %span.indifferent.active= t(:"recipe_form.indifferent")
+
+      %div
+        = f.label :cost
+        = f.hidden_field :cost
+        %div.icons
+          - RECIPE_COST.each do |cost|
+            %i{class: "fa fa-eur",
+              title: t(:"cost.#{cost}"),
+              data: {value: cost}}>
+        %span.indifferent.active= t(:"recipe_form.indifferent")
+
+
+/ %div.spec
+/       %ul.radio
+/         - RECIPE_COMPLEXITY.each do |complexity|
+/           %li
+/             %label{for: "complexity_#{complexity}"}
+/               = radio_button_tag(:complexity, complexity)
+/               = t(:"complexity.#{complexity}")
+
+/     %div.spec
+/       %ul.radio
+/         - RECIPE_TASTE.each do |taste|
+/           %li
+/             %label{for: "taste_#{taste}"}
+/               = radio_button_tag(:taste, taste)
+/               = t(:"taste.#{taste}")
+
+/     %div.spec
+/       %ul.radio
+/         - RECIPE_BALANCED_DIET.each do |balanced_diet|
+/           %li
+/             %label{for: "balanced_diet_#{balanced_diet}"}
+/               = radio_button_tag(:balanced_diet, balanced_diet)
+/               = t(:"balanced_diet.#{balanced_diet}")
+
+/     %div.spec
+/       %ul.radio
+/         - RECIPE_COST.each do |cost|
+/           %li
+/             %label{for: "cost_#{cost}"}
+/               = radio_button_tag(:cost, cost)
+/               = t(:"cost.#{cost}")
+
+
+%fieldset.ingredients
+  %ul
+    = f.fields_for :recipe_ingredients do |f_recipe_ingredients|
+      %li
+        = f_recipe_ingredients.text_field :quantity
+        = f_recipe_ingredients.text_field :measure
+        = f_recipe_ingredients.fields_for :ingredient do |f_ingredient|
+          = f_ingredient.text_field :name, class: "input_ingredient"
+
+%fieldset.instructions
+  %ul
+    = f.fields_for :recipe_instructions do |f_instruction|
+      %li= f_instruction.text_area :instruction
+
+%fieldset.further_information
+
+.actions
+  = f.submit t(:save), class: "button"
+  = link_to t(:back), root_path, class: "button"

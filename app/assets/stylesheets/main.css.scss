@@ -40,10 +40,169 @@
 }
 
 #main{
-  width: 1000px;
+  width: 900px;
   margin: auto;
   padding: 1em;
   border-bottom: 1px solid green;
   border-left: 1px solid green;
   border-right: 1px solid green;
+}
+
+#wiki_search_form{
+  display: none;
+  background-color: $brown;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.1em;
+  input[type="search"]{
+    width: 500px;
+  }
+  label{
+    padding-right: 0.5em;
+  }
+  button{
+    padding: 0.2em;
+    i{
+      font-size: 1.3em;
+    }
+  }
+}
+.ui-autocomplete.wiki_results{
+  font-size: 0.9em;
+  li{
+    background-color: #eee;
+  }
+  .ui-state-focus, .ui-state-hover{
+    background: darken(#eee, 8)
+  }
+  a{
+    border-color: white;
+  }
+  li+li{
+    border-top: 2px solid white;
+  }
+  .type{
+    float: right;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .ingredient .type{
+    color: darken(#A60000, 10);
+  }
+  .skill .type{
+    color: darken(#FF5900, 10);
+  }
+  .culinary_term .type{
+    color: darken(#081472, 10);
+  }
+  .utensil .type{
+    color: darken(#078600, 10);
+  }
+  em{
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+
+.radio{
+  background-color: white;
+  display: inline-block;
+  margin: 0;
+  @include border_radius(4px, 4px, 4px, 4px);
+  border: 1px solid #ccc;
+  li{
+    list-style-type: none;
+    &:hover, &.active{
+      background-color: #FEDCDC;
+    }
+  }
+  label{
+    display: block;
+    padding: 0.3em 0.6em 0.3em 0;
+    cursor: pointer;
+  }
+  &.inline{
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+.tooltip{
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+#form_recipe{
+  input:not([type="submit"]){
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  h1{
+    font-family: $police_titre;
+    font-weight: normal;
+  }
+  .dish_none{
+    border-top: 1px solid #ddd;
+    font-style: italic;
+    color: #555;
+  }
+  fieldset{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    @include border_radius(10px, 10px, 10px, 10px);
+    margin: 1em 0;
+    section > div{
+      margin: 1em 0;
+      & > label:first-child{
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        &:after{
+          content: " : ";
+        }
+      }
+    }
+    &.general{
+      padding: 0.5em 4em;
+      & > section{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 2em;
+      }
+    }
+  }
+  .spec{
+    border-top: 1px dashed black;
+    .icons{
+      display: inline-block;
+    }
+    .indifferent{
+      color: #888;
+      cursor: pointer;
+      font-style: italic;
+      &.active{
+        color: #CF4E4E;
+      }
+      &:hover{
+        color: black;
+      }
+    }
+    i{
+      font-size: 1.1em;
+      padding: 0 0.2em;
+      color: #aaa;
+      cursor: pointer;
+      &.fa-cutlery{
+        padding: 0 0.4em;
+      }
+      &.active{
+        color: #CF4E4E;
+      }
+      &.hover{
+        color: black;
+      }
+    }
+  }
 }

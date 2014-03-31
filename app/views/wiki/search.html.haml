@@ -1,0 +1,24 @@
+- if @term.nil?
+  %p= t(:'wiki.no_result')
+- else
+
+  %h1= @term.name
+
+  / - if @type.count > 1
+  /   %h2
+  /     - @type.each do |t|
+
+  / - else
+  /   %h2= @type.first
+
+  - if @term.is_a? Skill
+    - if @term.skill_descriptions.empty?
+      %p= t(:'wiki.no_description')
+    - elsif @term.skill_descriptions.count > 1
+      %ul
+        - @term.skill_descriptions.each do |obj|
+          %li= obj.description
+    - else
+      %p= @term.skill_descriptions.first.description
+  - else
+    %p= @term.description || t(:'wiki.no_description')

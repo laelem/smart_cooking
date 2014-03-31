@@ -1,0 +1,5 @@
+= form_tag wiki_search_path, method: "get", id: "wiki_search_form" do
+  = label_tag :wiki_search, t(:'wiki.search_label')
+  = search_field_tag :wiki_search, '', maxlength: MAX_SIZE_DEFAULT_INPUT_TEXT
+  %button{type: "submit", class: "button"}
+    = icon('search')

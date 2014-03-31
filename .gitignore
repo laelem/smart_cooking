@@ -5,6 +5,13 @@
 /log/*.log
 /tmp
 
+# Ignore upload directories
+/public/upload/photo/ingredient/*
+!/public/upload/photo/ingredient/.keep
+
+# Ignore temporary document files
+/doc
+
 # Ignore other unneeded files.
 database.yml
 *.swp

@@ -1,0 +1,7 @@
+%h1 List of recipes
+
+- if @recipes.empty?
+  %aside No recipe is present.
+- else
+  %ul
+    = render @recipes

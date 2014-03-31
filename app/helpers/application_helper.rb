@@ -8,7 +8,7 @@ module ApplicationHelper
         str += '</ul>'
       end
       current_level = ing.level
-      if ing.right_side - ing.left_side > 1
+      if ing.right - ing.left > 1
         str += '<li>' + ing.name + '<ul>'
       else
         str += '<li>' + ing.name + '</li>'

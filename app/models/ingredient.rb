@@ -1,5 +1,8 @@
 class Ingredient < ActiveRecord::Base
 
+  has_many :recipe_ingredients
+  has_many :recipes, through: :recipe_ingredients
+
   before_validation :strip_attributes
   before_save :format_data
 
@@ -7,7 +10,6 @@ class Ingredient < ActiveRecord::Base
                       length: { minimum: MIN_SIZE_INGREDIENT,
                                 maximum: MAX_SIZE_INGREDIENT },
                       uniqueness: { case_sensitive: false }
-  validates :description,   length: { maximum: MAX_SIZE_DEFAULT_INPUT_TEXT }
 
   private
 
